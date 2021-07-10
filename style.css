@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+  color: #171010;
+  background-color: #F9F9F9;
+  font-family: open sans;
+  letter-spacing: 0px;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1 {
+  color: #77ACF1;
+  font-family: open sans;
+}
+
+h2 {
+  color: #77ACF1;
+  font-family: open sans;
+}
+
+a {
+  color: #77ACF1;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #77ACF1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin: 20px 0px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue:hover {
+  background-color: #F0F0F0;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.fa, .fab {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-size: 50px;
+}
+.fa, .fab:hover{
+  background-color: #F0F0F0;
+  color: white;
+}
+
